@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <style type="text/css">
+        .demo{
+            box-shadow: 0 0 10px white;
+            height: 700px;
+            width: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+
+        h1{
+           text-align: center;
+           color: brown;
+        }
+
+        input{
+            padding: 10px;
+            margin: 0px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+           
+        }
+        .display{
+            width: 357px;
+           
+        }
+        button{
+            padding: 5px;
+            margin: 10px;
+            width: 20%;
+            cursor: pointer;
+            color: white;
+            background-color: blue;
+        }
+        button:hover{
+            background-color: blue;
+            box-shadow: 0 0 10px white;
+        }
+        body{
+            background-color: blueviolet;
+        }
+        ::placeholder{
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>REGISTRATION FORM</h1>
+        <div style="height: 100px;width: 100px;position: absolute; top: 25%; left: 50%;transform: translate(-50%,-50%);" class="demo">
+            <img src="logo.png.jpg" height="100px" width="100">
+        </div>
+       
+       
+        <div style="height: 430px;width: 400px;position: absolute; top: 70%; left: 50%;transform: translate(-50%,-50%);padding:5px; ">
+        <form>
+
+            <label for="fname"></label>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <label for="lname"></label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" >
+            <br><br>
+
+            <label for="uname"></label>
+            <input type="text" name="uname" id="uname" placeholder="Username" class="display" required>
+            <br><br>
+
+            
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email" class="display" required>
+            <br><br>
+
+            
+            <label for="phnumber"></label>
+            <input type="phnumber" name="phnumber" id="phnumber" placeholder="Tel.Number" class="display" required>
+            <br><br>
+
+            
+            <label for="pass1"></label>
+            <input type="password" name="pass1" id="pass1" placeholder="password" class="display" required>
+            <br><br>
+
+            
+            <label for="pass2"></label>
+            <input type="password" name="pass2" id="pass2" placeholder="Confirm password" class="display" required>
+            <br><br>
+
+            
+            <button>OK</button>
+            <br><br>
+
+
+   
+        </form>
+        </div>
+
+        
+        
+
+    </div>
+    
+</body>
+</html>
